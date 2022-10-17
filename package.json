@@ -1,16 +1,16 @@
 {
-  "name": "writing-sass",
+  "name": "oh-my-food-leqcha",
   "version": "1.0.0",
-  "description": "Joe Blow's portfolio",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gerkx/maintainable-css-with-sass.git"
+    "url": "git+https://github.com/leqcha/ohmyfood.git"
   },
-  "author": "gerkx",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gerkx/maintainable-css-with-sass/issues"

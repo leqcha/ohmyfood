@@ -1,16 +1,7 @@
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
-html {
-    // 10px div by def of 16px
-    font-size: 62.5%;
+* {
+    box-sizing: content-box;
 }
 
 body {
-    box-sizing: border-box;
+    font-family: $body-font;
 }
