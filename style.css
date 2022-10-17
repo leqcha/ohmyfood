@@ -1,9 +1,6 @@
-body {
-  background-color: black;
+.img{
+  width: 300px;
+  height: 310px;
+  object-fit: cover;
 }
-
-p {
-  color: rgb(157, 211, 228);
-}
-
 /*# sourceMappingURL=style.css.map */
