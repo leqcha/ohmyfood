@@ -22,6 +22,7 @@
     </header>
 
     <main>
+        <!-- loading spinner à créer -->
         <section class="location">
             <form class="form" method="get" action="#">
                 <span class="iconegeo"><i class="fa-solid fa-location-dot"></i></span>
@@ -59,20 +60,97 @@
                 </ol>
             </nav>
         </section>
+        <!-- création cards -->
+        <section class="restaurants">
+            <h2>Restaurants</h2>
+            <div class="cards__list">
+                    <div class="cartesrestaurants">
+                        <a href="html/Lapalettedugoût.html">
+                            <p class="evenement">Nouveau</p>
+                            <figure>
+                                <img src="public/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                                    alt="La palette du goût">
+                                <figcaption>
+                                    <div class="legende">
+                                        <h3>La palette du goût</h3>
+                                        <p>Ménilmontant</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                        <button class="btn-coeur coeur">
+                            <i class="fond_coeur fa-solid fa-heart coeurplein"></i>
+                            <i class="fond_coeur fa-regular fa-heart coeurvide"></i>
+                        </button>
+                    </div>
+                    <div class="cartesrestaurants">
+                        <a class="carte2restaurant" href="html/lanoteenchantée.html">
+                            <p class="evenement">Nouveau</p>
+                            <figure>
+                                <img src="public/img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="la note enchantée">
+                                <figcaption>
+                                    <div class="legende">
+                                        <h3>La note enchantée</h3>
+                                        <p>Charonne</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                        <button class="btn-coeur coeur">
+                            <i class="fond_coeur coeurplein fa-solid fa-heart"></i>
+                            <i class="fond_coeur coeurvide fa-regular fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="cartesrestaurants">
+                        <a href="html/Alafrancaise.html">
+                            <figure>
+                                <img src="public/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                                    alt="À la française">
+                                <figcaption>
+                                    <div class="legende">
+                                        <h3>À la française</h3>
+                                        <p>Cité Rouge</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                        <button class="btn-coeur coeur">
+                            <i class="fond_coeur fa-solid fa-heart coeurplein"></i>
+                            <i class="fond_coeur fa-regular fa-heart coeurvide"></i>
+                        </button>
+                    </div>
+                    <div class="cartesrestaurants">
+                        <a href="html/ledelicedessens.html">
+                            <figure>
+                                <img src="public/img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                                    alt="Le délice des sens">
+                                <figcaption>
+                                    <div class="legende">
+                                        <h3>Le délice des sens</h3>
+                                        <p>Folie-Méricourt</p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                        <button class="btn-coeur coeur">
+                            <i class="fond_coeur fa-solid fa-heart coeurplein"></i>
+                            <i class="fond_coeur fa-regular fa-heart coeurvide"></i>
+                        </button>
+                    </div>
+            </div>
+        </section>
     </main>
 
     <footer>
         <nav>
             <h3 class="textfooter">ohmyfood</h3>
             <ul>
-                <li><i class="fa-solid fa-utensils"></i>Proposer un restaurant</li>
-                <li><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</li>
-                <li>Mentions légales</li>
-                <li><a href="mailto:charlotte.lequesne@hotmail.fr">Contact</a></li>
+                <li><i class="fa-solid fa-utensils"></i><a href="#">un restaurant</a></li>
+                <li><i class="fa-solid fa-handshake-angle"></i><a href="#">Devenir partenaire</a></li>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
             </ul>
         </nav>
-
     </footer>
-
 </body>
 </html>
