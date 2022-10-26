@@ -1,0 +1,11 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-background;
+    margin: 30px auto 30px auto;
+    height: 50px;
+}

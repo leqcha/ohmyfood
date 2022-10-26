@@ -4,4 +4,12 @@
 
 body {
     font-family: $body-font;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
 }
