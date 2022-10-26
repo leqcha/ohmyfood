@@ -2,10 +2,21 @@
 @import "../utils/mixins";
 
 .form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: $color-background;
-    margin: 30px auto 30px auto;
+    margin: 4px auto 30px auto;
     height: 50px;
+    @include flex-center;
+        .iconegeo{
+            margin-right: 10px;
+        }
+}
+
+input:disabled {
+    background: transparent;
+    border: transparent;
+    
+}
+input::placeholder{
+    color: black;
+    font-weight: bold;
 }
