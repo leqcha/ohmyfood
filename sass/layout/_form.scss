@@ -2,7 +2,7 @@
 @import "../utils/mixins";
 
 .form{
-    background-color: $color-background;
+    background-color: $color-grey;
     margin: 4px auto 30px auto;
     height: 50px;
     @include flex-center;

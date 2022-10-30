@@ -1,0 +1,15 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.location{
+    background-color: $color-background;
+    .textaccueil_h2{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .textacceuil_p{
+        text-align: center;
+        margin: 10px 0 0 20px;
+    }
+}
