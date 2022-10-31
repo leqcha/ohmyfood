@@ -1,15 +1,33 @@
 @import "../utils/variables";
 @import "../utils/mixins";
 
-.location{
+section.location{
+    margin-bottom: 0;
+    text-align: center;
     background-color: $color-background;
+    
     .textaccueil_h2{
         font-size: 25px;
         font-weight: bold;
         text-align: center;
+
     }
     .textacceuil_p{
         text-align: center;
+        color: $color-grey-light;
         margin: 10px 0 0 20px;
     }
+    .btn{
+        text-align: center;
+        width: 220px;
+    }
+}
+
+// section fonctionnement
+.fonctionnement{
+    @include flex-center;
+    flex-direction: column;
+    align-items: baseline;
+
+
 }

@@ -92,17 +92,32 @@ th {
   padding: 0;
 }
 
-.location {
+section.location {
+  margin-bottom: 0;
+  text-align: center;
   background-color: #F6F6F6;
 }
-.location .textaccueil_h2 {
+section.location .textaccueil_h2 {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
 }
-.location .textacceuil_p {
+section.location .textacceuil_p {
   text-align: center;
+  color: #686868;
   margin: 10px 0 0 20px;
+}
+section.location .btn {
+  text-align: center;
+  width: 220px;
+}
+
+.fonctionnement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .titreheader {
@@ -115,6 +130,7 @@ th {
 }
 
 .form {
+  width: 100%;
   background-color: #eaeaea;
   margin: 4px auto 30px auto;
   height: 50px;
@@ -136,4 +152,44 @@ input::placeholder {
   font-weight: bold;
 }
 
+.fonctionnement{
+  display: flex;
+  /* flex-direction: column; */
+  padding: 30px;
+}
+
+.fonctionnement__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.function__button{
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #F6F6F6;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 2px 0 11px #cbcbcb;
+  max-width: 300px;
+  width: 85%;
+}
+.function--padding{
+  padding: 25px 50px;
+}
+
+@media screen and (min-width:700px){
+  .function__button{
+    max-width: 50%;
+    width: 30%;
+    border-radius: 18px;
+    margin: 20pax auto;
+}
+}
 /*# sourceMappingURL=style.css.map */
